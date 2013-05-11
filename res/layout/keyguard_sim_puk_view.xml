@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.policy.impl.keyguard.KeyguardSimPukView androidprv:gravity="center_horizontal" androidprv:orientation="vertical" androidprv:id="@id/keyguard_sim_puk_view" androidprv:layout_width="fill_parent" androidprv:layout_height="fill_parent" androidprv:layout_maxHeight="@dimen/keyguard_security_height" androidprv:layout_maxWidth="@dimen/keyguard_security_width"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:androidprv="http://schemas.android.com/apk/res/android">
+    <include androidprv:layout_width="fill_parent" androidprv:layout_height="wrap_content" layout="@layout/keyguard_message_area" />
+    <LinearLayout androidprv:gravity="center" androidprv:orientation="vertical" androidprv:id="@id/keyguard_bouncer_frame" androidprv:background="@drawable/kg_bouncer_bg_white" androidprv:layout_width="fill_parent" androidprv:layout_height="0.0dip" androidprv:layout_weight="1.0">
+        <TextView androidprv:textSize="18.0sp" androidprv:textColor="#ffffffff" androidprv:gravity="center" androidprv:layout_gravity="bottom|center" androidprv:id="@id/keyguard_unlock_view_help_text" androidprv:clickable="true" androidprv:layout_width="wrap_content" androidprv:layout_height="wrap_content" androidprv:shadowColor="#99000000" androidprv:shadowDy="5.0" androidprv:shadowRadius="5.0" />
+        <Space androidprv:layout_width="fill_parent" androidprv:layout_height="100.0dip" />
+        <Button androidprv:textSize="@dimen/kg_emergency_button_font_size" androidprv:textColor="#fff9f9f9" androidprv:id="@id/emergency_call_button" androidprv:layout_width="wrap_content" androidprv:layout_height="wrap_content" androidprv:text="@string/kg_emergency_call_label" androidprv:shadowColor="#99000000" androidprv:shadowDy="5.0" androidprv:shadowRadius="5.0" androidprv:drawableLeft="@drawable/lockscreen_emergency_button" androidprv:drawablePadding="8.0dip" style="?android:attr/buttonBarButtonStyle" />
+        <Button androidprv:textSize="@dimen/kg_emergency_button_font_size" androidprv:textColor="#fff9f9f9" androidprv:id="@id/forgot_password_button" androidprv:layout_width="wrap_content" androidprv:layout_height="wrap_content" androidprv:shadowColor="#99000000" androidprv:shadowDy="5.0" androidprv:shadowRadius="5.0" androidprv:drawableLeft="@drawable/lockscreen_emergency_button" androidprv:drawablePadding="8.0dip" style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+</com.android.internal.policy.impl.keyguard.KeyguardSimPukView>
