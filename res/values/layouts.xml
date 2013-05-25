@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <item type="layout" name="keyguard_transport_control">false</item>
     <item type="layout" name="APKTOOL_DUMMY_0070">false</item>
     <item type="layout" name="APKTOOL_DUMMY_007e">false</item>
     <item type="layout" name="APKTOOL_DUMMY_007f">false</item>
